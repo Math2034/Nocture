@@ -117,5 +117,5 @@ This is a fictitious project built for portfolio purposes. All content including
 
 <div align="center">
   <img src="img/logo1.png" width="60px" alt="Nocture logo" /><br><br>
-  <sub>Designed & developed by <a href="https://github.com/Math2034">you</a> · 2026</sub>
+  <sub>Designed & developed by <a href="https://github.com/Math2034">Matheus</a> · 2026</sub>
 </div>
