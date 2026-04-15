@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logo2.png">
+    <title>Nocture Night Club</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- BACKGROUND VIDEO/FULLSCREEN -->
+    <div class="club-environment">
+    <div class="bg-container">
+      <img class="bg-gif" src="video/club.gif" alt="" aria-hidden="true">
+      <div class="atmosphere-overlay">
+        <div class="smoke-particles"></div>
+        <div class="distant-lights"></div>
+      </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main>
+    <!-- Side nav -->
+    <nav class="sidenav" id="sidenav">
+      <button class="closebtn" onclick="closeNav()">×</button>
+      <a href="#hero" onclick="closeNav()">HOME</a>
+      <a href="#gallery" onclick="closeNav()">GALLERY</a>
+      <a href="#about" onclick="closeNav()">ABOUT</a>
+      <a href="#events" onclick="closeNav()">EVENTS</a>
+      <a href="#contact" onclick="closeNav()">CONTACT</a>
+    </nav>
+    <button class="menu-toggle" onclick="openNav()">☰</button>
+
+      <!-- HERO -->
+      <section id="hero" class="hero-portal">
+  <div class="security-scanline"></div>
+  <div class="iris-door">
+    <h1 class="laser-text">NOCTURE</h1>
+    <p class="etched-subtext">Where Perth's never sleep</p>
+    <button class="cta-button">NEXT EVENT</button>
+  </div>
+</section>
+
+      <!-- GALLERY -->
+      <section id="gallery" class="gallery">
+        <div class="morph-grid">
+          <div class="grid-item">
+            <img src="img/crowd.jpg" alt="Crowd dancing" loading="lazy">
+            <div class="caption">
+              <h2>CROWD VIBES</h2>  
+              <svg viewBox="0 0 448 512" width="80" aria-label="arrow-right">
+                <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="grid-item">
+            <img src="img/enjoy.jpg" alt="Man enjoying" loading="lazy">
+            <div class="caption">
+              <h2>PURE ENERGY</h2> 
+              <svg viewBox="0 0 448 512" width="80" aria-label="arrow-right">
+                <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="grid-item">
+            <img src="img/girls.jpg" alt="Girls" loading="lazy">
+            <div class="caption">
+              <h2>NIGHT MOVES</h2>  
+              <svg viewBox="0 0 448 512" width="80" aria-label="arrow-right">
+                <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-divider"></section>
+
+      <!-- ABOUT -->
+      <section id="about" class="about memory-reveal">
+  <div class="about-grid">
+    <div class="about-image">
+      <div class="image-frame">
+        <img src="img/alive.jpg" alt="Nocture">
+        <div class="neon-frame"></div>
+      </div>
+    </div>
+    <div class="about-text">
+      <h2 class="glitch-title">ABOUT NOCTURE</h2>
+            <p>
+              <strong>We didn't build a club. We built a memory.</strong><br>
+              Before we ever set foot on a dancefloor, we already knew what it
+              felt like neon bleeding through rain, bass you could feel before
+              you heard it, cities that never slept. We saw it in the cartoons.
+              We felt it in the music. Nocture is that feeling, finally given a
+              place to exist.
+            </p>
+            <p>
+              This is not nostalgia for the past. It's the future we always
+              imagined darker, louder, and more alive than anything the real
+              world offered us.
+            </p>
+            <blockquote class="ramox-quote">
+              <em>"This isn't just a club. It's the digital resurrection of a memory we all share the nightlife we dreamed of before we ever felt the bass."</em><br>
+              <strong>— RAMOX</strong>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-divider"></section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact">
+        <div class="contact-wrapper">
+          <div class="contact-header">
+            <span class="contact-label">GET IN TOUCH</span>
+            <h2 class="contact-title">BOOK AN EVENT.<br>START A CONVERSATION.</h2>
+            <p class="contact-sub">Bookings, partnerships, press.</p>
+          </div>
+          <form class="contact-form" action="https://formspree.io/f/SEU-ID" method="POST">
+            <div class="form-row">
+              <input type="text" name="name" placeholder="NAME" required>
+              <input type="email" name="email" placeholder="EMAIL" required>
+            </div>
+            <input type="text" name="subject" placeholder="SUBJECT">
+            <textarea name="message" placeholder="YOUR MESSAGE" rows="5" required></textarea>
+            <button type="submit" class="cta-button">SEND MESSAGE</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="footer-wrapper">
+          <div class="footer-brand">
+            <img src="img/logo1.png" alt="Nocture logo" class="footer-logo">
+          </div>
+          <div class="footer-links">
+            <div class="footer-column">
+              <h3>Contact</h3> 
+              <ul>
+                <li>contact@necture.com</li>
+                <li>+61 400 000 000</li>
+                <li>Perth, WA</li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h3>Follow</h3>
+              <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Snapchat</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 NOCTURE Club. Perth, WA. All rights reserved.</p>
+        </div>
+      </footer>
+    </main> 
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
