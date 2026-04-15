@@ -1,6 +1,5 @@
 <div align="center">
 
-<!-- BANNER — substitui por um print do seu hero em 1200x400px -->
 ![Nocture Banner](img/banner.png)
 
 # NOCTURE CLUB
@@ -12,7 +11,7 @@
 [![Formspree](https://img.shields.io/badge/Formspree-FF5733?style=for-the-badge&logo=minutemailer&logoColor=white)](https://formspree.io)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)](https://pages.github.com)
 
-**[→ Live Demo](https://seuusuario.github.io/nocture-club)**
+**[→ Live Demo](https://math2034.github.io/Nocture/)**
 
 </div>
 
@@ -22,9 +21,9 @@
 
 Nocture Club is a fictitious client project — a landing page designed for an underground nightclub with a strong visual identity inspired by **early 2000s animated worlds** such as *Batman Beyond* and *Teen Titans*.
 
-The goal was not to build a purely functional website, but to **recreate a feeling** — the imagined version of nightlife we carried before ever experiencing it in real life.
+The goal was not to build a purely functional website, but to **recreate a feeling** the imagined version of nightlife we carried before ever experiencing it in real life.
 
-> *"This isn't just a club. It's the digital resurrection of a memory we all share — the nightlife we dreamed of before we ever felt the bass."*
+> *"This isn't just a club. It's the digital resurrection of a memory we all share the nightlife we dreamed of before we ever felt the bass."*
 > — RAMOX
 
 ---
@@ -67,7 +66,7 @@ The goal was not to build a purely functional website, but to **recreate a feeli
 - **Rajdhani** — headings and UI elements, bold and urban
 
 ### Visual Inspiration
-Scenes from *Batman Beyond* — futuristic cities, neon lighting, crowded dancefloors — shaped every design decision: dark backgrounds, high contrast, and motion throughout.
+Scenes from *Batman Beyond* — futuristic cities, neon lighting, crowded dancefloors, shaped every design decision: dark backgrounds, high contrast, and motion throughout.
 
 ---
 
@@ -112,7 +111,7 @@ Form submissions are handled by **Formspree** — no backend required. To connec
 
 ## 📄 License
 
-This is a fictitious project built for portfolio purposes. All content — including brand name, events, and copy — is fictional.
+This is a fictitious project built for portfolio purposes. All content including brand name, events, and copy  is fictional.
 
 ---
 
